@@ -12,7 +12,7 @@ minetest.register_entity("easy_mob:basicmob",{
 
 	animation = {
 		stand={x=0,y=79,speed=30,loop=false},
-		walk={x=168,y=187,speed=30,loop=false},
+		walk={x=168,y=187,speed=30},
 		run={x=168,y=187,speed=40},
 		attack={x=200,y=219,speed=30},
 	},
